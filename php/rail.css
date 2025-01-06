@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+html,body{
+  scroll-behavior: smooth;
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+.container{
+  background: #fff;
+  width: 500px;
+  height: 95%;
+  border-radius: 30px;
+}
+.container .title{
+  line-height: 80px;
+  background-color: #512da8;
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+span{
+  padding: 0px;;
+}
+form{
+  padding-left: 0px;
+  padding-bottom: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+}
+.border{
+  border: 1px solid #512da8;
+  width: 280px;
+  height: 28px;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.date{
+  border: 1px solid #512da8;
+  width: 180px;
+  height: 28px;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.box{
+  padding-left: 20px;
+  border: 1px solid #512da8;
+  margin: 5px;
+}
+.box1{
+  padding-left: 20px;
+  border: 1px solid #512da8;
+  margin: 5px;
+}
+button {
+  background: #512da8;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+button:hover{
+  background: rgba(223, 70, 15, 0.856);
+}
+.file{
+  color: red;
+  font-size: 10px;
+}
+select {
+  border-radius: 30px;
+  font-size: 18px; /* Medium font size for the select element */
+}
+
+select option {
+  font-size: 14px; /* Smaller font size for the options */
+  padding: 5px; /* Optional: Adjust padding if needed */
+}
+.rules{
+  padding-left: 30px;
+}
+h2{
+  color: red;
+  text-align: center;
+  padding-left: 0px;
+  margin: 10px;
+}

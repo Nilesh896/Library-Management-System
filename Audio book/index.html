@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section>
+
+        <nav>
+
+            <div class="logo">
+                <img src="image/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="/homepage/">Home</a></li>
+                <li><a href="/E-books/">E-Book</a></li>
+                <li><a href="/Audio book/">Audio Book</a></li>
+                <li><a href="/php/register.php">User Login</a></li>
+                <li><a href="/php/Admin_login.php">Admin Login</a></li>
+            </ul>
+
+            <div class="social_icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="main_tag">
+                <h1>WELCOME TO<br><span>ग्रंथालय Audio-Book</span></h1>
+
+                <p>
+                    "Explore a vast collection of audiobooks in our Library Management System. Enjoy seamless listening
+                    on any device, anytime. Perfect for learning or leisure, enhancing your reading experience with
+                    convenience and accessibility."
+                </p>
+                <a href="/1. homepage/" class="main_btn">Learn More</a>
+
+            </div>
+
+            <div class="main_img">
+                <img src="/img/audio book.png">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--Books-->
+
+    <div class="featured_boks">
+
+        <h1>Audio Books</h1>
+
+        <div class="featured_book_box">
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/atomic habits.png">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Atomic Habits</h2>
+                    <p class="writer">James Clear</p>
+
+                    <p class="book_price">Audio Book</p>
+                    <div class="audio"> <audio id="atomichabit" controls>
+                            <source src="/Audio book/audio/atomichabit.m4a">
+                        </audio></div>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/psychology money.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>The Psychology Of Money</h2>
+                    <p class="writer">Morgan Housel</p>
+
+                    <div class="audio"> <audio id="money" controls>
+                            <source src="/Audio book/audio/The Psychology of Money.m4a">
+                        </audio></div>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/laws of human nature.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>The Laws of Human Nature</h2>
+                    <p class="writer">Robert Greene</p>
+
+                    <p class="book_price"></p>
+                    <div class="audio"> <audio id="laws" controls>
+                            <source src="/Audio book/audio/The Laws of Human Nature.m4a">
+                        </audio></div>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/richdad.jpeg">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Rich Dad Poor Dad (Hindi)</h2>
+                    <p class="writer">Robert T. Kiyosaki</p>
+
+                    <div class="audio"> <audio id="dad" controls>
+                            <source src="/Audio book/audio/RICH DAD POOR DAD.m4a">
+                        </audio></div>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/bhagavad gita.jpg">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Bhagawad Geeta</h2>
+                    <p class="writer">Maharishi Veda Vyasa</p>
+                    <div class="categories"></div>
+                    <p class="book_price"></p>
+                    <div class="audio"> <audio id="geeta" controls>
+                            <source src="/Audio book/audio/Bhagawad Geeta.mp3">
+                        </audio></div>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/tuesday with morrie.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Tuesdays with Morrie</h2>
+                    <p class="writer">Mitch Albom </p>
+
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/quite.jpg">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Quite: The Power of Introverts</h2>
+                    <p class="writer">Susan Cain</p>
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/the alchemist.jpg">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>The Alchemist</h2>
+                    <p class="writer">Panlo Coelho</p>
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/man search for meaning.jpg  ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Man's Search for Meaning</h2>
+                    <p class="writer">Harold s. Kushner</p>
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/start with why.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Start with Why?</h2>
+                    <p class="writer">Simon Sinek</p>
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/the subtle art.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>The Subtle Art of Not Givin A F </h2>
+                    <p class="writer">Mark Manson</p>
+                    <p class="book_price"></sub></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+            <div class="featured_book_card">
+
+                <div class="featurde_book_img">
+                    <img src="/img/Wings of fire.jpg ">
+                </div>
+
+                <div class="featurde_book_tag">
+                    <h2>Wings of Fire</h2>
+                    <p class="writer">A.P.J.Abdul Kalam</p>
+                    <p class="book_price"></p>
+                    <a target="_blank  " class="f_btn"> Comming soon</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Arrivals-->
+
+    <div class="arrivals">
+        <h1>Listen For Relaxing Mind</h1>
+
+        <div class="arrivals_box">
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/ram siya ram.jpg ">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Ram Siya Ram</p>
+
+                    <div class="audio"> <audio id="ram" controls>
+                            <source src="/Audio book/audio/WhatsApp Audio 2024-09-11 at 1.36.15 PM.mp4">
+                        </audio></div>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/adharam.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Adharam Madhuram</p>
+
+                    <div class="audio"> <audio id="ram" controls>
+                            <source src="/Audio book/audio/Adharam Madhuram.m4a">
+                        </audio></div>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/flute.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Flute </p>
+
+                    <div class="audio"> <audio id="ram" controls>
+                            <source src="/Audio book/audio/Krish Theme.m4a">
+                        </audio></div>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" 
+                        class="arrivals_btn">Learn more</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#"
+                         class="arrivals_btn">Learn more</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="arrivals_card">
+                <div class="arrivals_image">
+                    <img src="/img/comingsoon.jpg">
+                </div>
+                <div class="arrivals_tag">
+                    <p>Coming soon</p>
+                    <div class="arrivals_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="arrivals_btn">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+  
+   <!--Banner-->
+
+   <div class="banner">
+    
+</div>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+
+            <div class="tag">
+                <img src="image/logo.png">
+                <p>
+                    © 2024 Granthalaya. All rights reserved. Designed for efficient resource management
+                    and user engagement. Explore our features, support services, and contact us for more information.
+                    Connect with us!
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Quick Link</h1>
+                <a href="/1. homepage/">Home</a>
+                <a href="/E-books/">E-Book</a>
+                <a href="/Audio book/">Audio Book</a>
+                <a href="#">User login</a>
+                <a href="#">Admin login</a>
+
+            </div>
+
+            <div class="tag">
+                <h1>Contact Info</h1>
+                <a href="#"><i class="fa-solid fa-phone"></i>+91 8591288325</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+91 9876543210</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>granthalaya@gmail.com</a>
+
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+            </div>
+
+            <div class="tag">
+                <h1>Newsletter</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="You email id here">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="end">© 2024 All Rights Reserved By Granthalaya</p>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
