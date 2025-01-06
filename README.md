@@ -49,14 +49,14 @@ Admins can log in to manage library resources.
 ## Requirements
 1. XAMPP (Apache, MySQL, PHP)
 2. Web browser (Google Chrome, Firefox, etc.)
-3.VS Code
+ 3.VS Code
 ## Installation and Setup
 1.Download and Install XAMPP
 2.Download XAMPP from Apache Friends.
 
 ## Clone the Repository
 --bash
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/Nilesh896/library-management-system.git
 
 ## Set Up the Project
 
