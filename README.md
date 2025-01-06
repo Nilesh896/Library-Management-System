@@ -26,7 +26,7 @@ webdevproject/
     |-- script.js
 
 ## Features
-# Home Section
+## Home Section
 Displays the library's welcome page.
 
 ## E-Book Section
