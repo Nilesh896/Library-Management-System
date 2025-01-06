@@ -76,4 +76,4 @@ Verify the database credentials in the PHP files.
 Contributing
 Feel free to submit issues or pull requests to contribute to the project.
 
-# contact no : ny069656@gmail.com
+# for issue contect me : ny069656@gmail.com
